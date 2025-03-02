@@ -4,4 +4,7 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.Shake, function () {
     basic.showArrow(ArrowNames.North)
 })
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.clearScreen()
+})
 basic.showString("Hello!")
